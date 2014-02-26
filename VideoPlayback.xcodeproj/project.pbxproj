@@ -24,12 +24,10 @@
 		1859941217FB67AF00D5A49F /* VuforiaSizzleReel_2.m4v in Resources */ = {isa = PBXBuildFile; fileRef = 1859940717FB67AF00D5A49F /* VuforiaSizzleReel_2.m4v */; };
 		1859941317FB67AF00D5A49F /* VuforiaSizzleReel_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1859940817FB67AF00D5A49F /* VuforiaSizzleReel_2.png */; };
 		1859941617FB7AB300D5A49F /* SampleMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1859941417FB7AB200D5A49F /* SampleMath.cpp */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		18DF88A3180388260007C371 /* VideoPlaybackAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DF88A2180388260007C371 /* VideoPlaybackAppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		18F7948917F720CB00C6A8DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F7948817F720CB00C6A8DA /* UIKit.framework */; };
 		18F7948B17F720CB00C6A8DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F7948A17F720CB00C6A8DA /* Foundation.framework */; };
 		18F7948D17F720CB00C6A8DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F7948C17F720CB00C6A8DA /* CoreGraphics.framework */; };
 		18F7949317F720CB00C6A8DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18F7949117F720CB00C6A8DA /* InfoPlist.strings */; };
-		18F7949517F720CB00C6A8DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F7949417F720CB00C6A8DA /* main.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		18F7949B17F720CB00C6A8DA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F7949A17F720CB00C6A8DA /* Default.png */; };
 		18F7949D17F720CB00C6A8DA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F7949C17F720CB00C6A8DA /* Default@2x.png */; };
 		18F7949F17F720CB00C6A8DA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F7949E17F720CB00C6A8DA /* Default-568h@2x.png */; };
@@ -82,6 +80,8 @@
 		FB42898518BCFF6900ADF636 /* VolumeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB42897C18BCFF6900ADF636 /* VolumeViewController.m */; };
 		FB8F618418BC582400DB6288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8F618318BC582400DB6288 /* Main.storyboard */; };
 		FB8F618618BC5BAE00DB6288 /* libQCAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8F618518BC5BAE00DB6288 /* libQCAR.a */; };
+		FB91640E18BE839E008D482D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91640D18BE839E008D482D /* main.m */; };
+		FB91641118BE83C2008D482D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91641018BE83C2008D482D /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,15 +104,12 @@
 		1859940817FB67AF00D5A49F /* VuforiaSizzleReel_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VuforiaSizzleReel_2.png; sourceTree = "<group>"; };
 		1859941417FB7AB200D5A49F /* SampleMath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SampleMath.cpp; sourceTree = "<group>"; };
 		1859941517FB7AB200D5A49F /* SampleMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SampleMath.h; sourceTree = "<group>"; };
-		18DF88A1180388260007C371 /* VideoPlaybackAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlaybackAppDelegate.h; sourceTree = "<group>"; };
-		18DF88A2180388260007C371 /* VideoPlaybackAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlaybackAppDelegate.m; sourceTree = "<group>"; };
 		18F7948517F720CB00C6A8DA /* VidPlayback.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VidPlayback.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F7948817F720CB00C6A8DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		18F7948A17F720CB00C6A8DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		18F7948C17F720CB00C6A8DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		18F7949017F720CB00C6A8DA /* VideoPlayback-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VideoPlayback-Info.plist"; sourceTree = "<group>"; };
 		18F7949217F720CB00C6A8DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		18F7949417F720CB00C6A8DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18F7949617F720CB00C6A8DA /* VideoPlayback-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VideoPlayback-Prefix.pch"; sourceTree = "<group>"; };
 		18F7949A17F720CB00C6A8DA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		18F7949C17F720CB00C6A8DA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
@@ -197,6 +194,9 @@
 		FB42897C18BCFF6900ADF636 /* VolumeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VolumeViewController.m; sourceTree = "<group>"; };
 		FB8F618318BC582400DB6288 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FB8F618518BC5BAE00DB6288 /* libQCAR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQCAR.a; path = build/lib/arm/libQCAR.a; sourceTree = "<group>"; };
+		FB91640D18BE839E008D482D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB91640F18BE83C2008D482D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB91641018BE83C2008D482D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,9 +266,9 @@
 		18F7948E17F720CB00C6A8DA /* VideoPlayback */ = {
 			isa = PBXGroup;
 			children = (
+				FB91640F18BE83C2008D482D /* AppDelegate.h */,
+				FB91641018BE83C2008D482D /* AppDelegate.m */,
 				FB8F618318BC582400DB6288 /* Main.storyboard */,
-				18DF88A1180388260007C371 /* VideoPlaybackAppDelegate.h */,
-				18DF88A2180388260007C371 /* VideoPlaybackAppDelegate.m */,
 				18F7950C17F7314E00C6A8DA /* Resources */,
 				18F794C517F7289F00C6A8DA /* Classes */,
 				18F7948F17F720CB00C6A8DA /* Supporting Files */,
@@ -279,9 +279,9 @@
 		18F7948F17F720CB00C6A8DA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FB91640D18BE839E008D482D /* main.m */,
 				18F7949017F720CB00C6A8DA /* VideoPlayback-Info.plist */,
 				18F7949117F720CB00C6A8DA /* InfoPlist.strings */,
-				18F7949417F720CB00C6A8DA /* main.m */,
 				18F7949617F720CB00C6A8DA /* VideoPlayback-Prefix.pch */,
 				18F7949A17F720CB00C6A8DA /* Default.png */,
 				18F7949C17F720CB00C6A8DA /* Default@2x.png */,
@@ -566,13 +566,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F7949517F720CB00C6A8DA /* main.m in Sources */,
 				18F794D317F7297600C6A8DA /* SampleAppAboutViewController.m in Sources */,
 				FB42898318BCFF6900ADF636 /* IssueViewController.m in Sources */,
 				FB42898118BCFF6900ADF636 /* ArticleDetailViewController.m in Sources */,
 				18F794D517F7297600C6A8DA /* SampleAppLeftMenuViewController.m in Sources */,
+				FB91641118BE83C2008D482D /* AppDelegate.m in Sources */,
 				18F794D617F7297600C6A8DA /* SampleAppMenu.m in Sources */,
 				FB42896718BCFF5600ADF636 /* AFURLResponseSerialization.m in Sources */,
+				FB91640E18BE839E008D482D /* main.m in Sources */,
 				FB42896518BCFF5600ADF636 /* AFURLConnectionOperation.m in Sources */,
 				FB42898518BCFF6900ADF636 /* VolumeViewController.m in Sources */,
 				FB42898018BCFF6900ADF636 /* MESVolume.m in Sources */,
@@ -596,7 +597,6 @@
 				FB42898218BCFF6900ADF636 /* ArticleListViewController.m in Sources */,
 				FB42896218BCFF5600ADF636 /* AFHTTPSessionManager.m in Sources */,
 				FB42898418BCFF6900ADF636 /* JournalViewController.m in Sources */,
-				18DF88A3180388260007C371 /* VideoPlaybackAppDelegate.m in Sources */,
 				FB42896818BCFF5600ADF636 /* AFURLSessionManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

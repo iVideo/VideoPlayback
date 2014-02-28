@@ -7,7 +7,7 @@
 //
 
 #import "ArticleListViewController.h"
-#import "ArticleDetailViewController.h"
+#import "SampleAppAboutViewController.h"
 #import "MESJournal.h"
 #import "MESVolume.h"
 #import "MESArticle.h"
@@ -88,7 +88,7 @@
     // Pass the selected object to the new view controller.
     if ([segue.identifier isEqualToString:@"showDetail"]) {
         
-        ArticleDetailViewController *destViewController = segue.destinationViewController;
+        SampleAppAboutViewController *destViewController = segue.destinationViewController;
         
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
         self.selectedArticle = [[MESArticle alloc] init];

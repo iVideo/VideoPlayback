@@ -7,13 +7,30 @@
 //
 
 #import "AppDelegate.h"
+#import "SampleAppAboutViewController.h"
 
 @implementation AppDelegate
 
+- (void)dealloc
+{
+    [_window release];
+    [super dealloc];
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{    
-    // Override point for customization after application launch.
+{
+//    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     
+//    SampleAppAboutViewController *vc = [[[SampleAppAboutViewController alloc] initWithNibName:@"SampleAppAboutViewController" bundle:nil] autorelease];
+//    vc.appTitle = @"Video Playback";
+//    vc.appAboutPageName = @"VP_about";
+//    vc.appViewControllerClassName = @"VideoPlaybackViewController";
+    
+//    UINavigationController * nc = [[UINavigationController alloc]initWithRootViewController:vc];
+//    nc.navigationBar.barStyle = UIBarStyleDefault;
+    
+//    self.window.rootViewController = nc;
+//    [self.window makeKeyAndVisible];
     return YES;
 }
 							

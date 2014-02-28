@@ -81,7 +81,7 @@
 		FB8F618418BC582400DB6288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8F618318BC582400DB6288 /* Main.storyboard */; };
 		FB8F618618BC5BAE00DB6288 /* libQCAR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB8F618518BC5BAE00DB6288 /* libQCAR.a */; };
 		FB91640E18BE839E008D482D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91640D18BE839E008D482D /* main.m */; };
-		FB91641118BE83C2008D482D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91641018BE83C2008D482D /* AppDelegate.m */; };
+		FB91641118BE83C2008D482D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB91641018BE83C2008D482D /* AppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */

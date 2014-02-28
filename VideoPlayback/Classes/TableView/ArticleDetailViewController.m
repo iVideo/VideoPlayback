@@ -7,7 +7,6 @@
 //
 
 #import "ArticleDetailViewController.h"
-//#import "ScannerViewController.h"
 #import "MESArticle.h"
 
 @interface ArticleDetailViewController ()

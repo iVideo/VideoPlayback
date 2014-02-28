@@ -12,11 +12,23 @@
 
 @implementation SampleAppAboutViewController
 
+@synthesize selectedArticle;
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        /*SampleAppAboutViewController *vc = [[[SampleAppAboutViewController alloc] initWithNibName:@"SampleAppAboutViewController" bundle:nil] autorelease];
+        vc.appTitle = @"Video Playback";
+        vc.appAboutPageName = @"VP_about";
+        vc.appViewControllerClassName = @"VideoPlaybackViewController";
+        
+        UINavigationController * nc = [[UINavigationController alloc]initWithRootViewController:vc];
+        nc.navigationBar.barStyle = UIBarStyleDefault;
+        
+        self.window.rootViewController = nc;
+        */
     }
     return self;
 }
@@ -49,7 +61,9 @@
 }
 
 - (IBAction)startButtonTapped:(id)sender {
+    self.appViewControllerClassName = @"VideoPlaybackViewController";
     Class vcClass = NSClassFromString(self.appViewControllerClassName);
+    NSLog(@"%@", self.appViewControllerClassName);
     id vc = [[vcClass alloc]  initWithNibName:nil bundle:nil];
     
     SampleAppSlidingMenuController *slidingMenuController = [[SampleAppSlidingMenuController alloc] initWithRootViewController:vc];
